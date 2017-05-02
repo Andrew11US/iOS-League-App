@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51EA59EC3403E2B9534D038C /* Pods_League.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39149C4FFD622923150172F7 /* Pods_League.framework */; };
 		904B8FBD1EB6776F00A4D0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904B8FBC1EB6776F00A4D0D9 /* AppDelegate.swift */; };
-		904B8FBF1EB6776F00A4D0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904B8FBE1EB6776F00A4D0D9 /* ViewController.swift */; };
 		904B8FC21EB6776F00A4D0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904B8FC01EB6776F00A4D0D9 /* Main.storyboard */; };
 		904B8FC41EB6776F00A4D0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904B8FC31EB6776F00A4D0D9 /* Assets.xcassets */; };
 		904B8FC71EB6776F00A4D0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904B8FC51EB6776F00A4D0D9 /* LaunchScreen.storyboard */; };
+		90E9A0571EB8EC910067FCA0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E9A0561EB8EC910067FCA0 /* LocalAuthentication.framework */; };
+		90E9A05D1EB8F4830067FCA0 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A05C1EB8F4830067FCA0 /* AuthenticationViewController.swift */; };
+		90E9A05F1EB8F5F80067FCA0 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A05E1EB8F5F80067FCA0 /* CustomButton.swift */; };
+		90E9A0661EB8FE760067FCA0 /* LogedInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A0651EB8FE760067FCA0 /* LogedInVC.swift */; };
+		90E9A0681EB903550067FCA0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A0671EB903550067FCA0 /* CustomTextField.swift */; };
+		90E9A06A1EB905160067FCA0 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9A0691EB905160067FCA0 /* GlobalData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39149C4FFD622923150172F7 /* Pods_League.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E718A855043FEBDD6E46D5 /* Pods-League.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League.release.xcconfig"; path = "Pods/Target Support Files/Pods-League/Pods-League.release.xcconfig"; sourceTree = "<group>"; };
 		904B8FB91EB6776F00A4D0D9 /* League.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = League.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904B8FBC1EB6776F00A4D0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		904B8FBE1EB6776F00A4D0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		904B8FC11EB6776F00A4D0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		904B8FC31EB6776F00A4D0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		904B8FC61EB6776F00A4D0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904B8FC81EB6776F00A4D0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E9A0561EB8EC910067FCA0 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		90E9A05C1EB8F4830067FCA0 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		90E9A05E1EB8F5F80067FCA0 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		90E9A0611EB8F6E40067FCA0 /* League-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League-Bridging-Header.h"; sourceTree = "<group>"; };
+		90E9A0651EB8FE760067FCA0 /* LogedInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogedInVC.swift; sourceTree = "<group>"; };
+		90E9A0671EB903550067FCA0 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		90E9A0691EB905160067FCA0 /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		D7C200D663A1F8C094CE0617 /* Pods-League.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League.debug.xcconfig"; path = "Pods/Target Support Files/Pods-League/Pods-League.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E9A0571EB8EC910067FCA0 /* LocalAuthentication.framework in Frameworks */,
+				51EA59EC3403E2B9534D038C /* Pods_League.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				904B8FBB1EB6776F00A4D0D9 /* League */,
 				904B8FBA1EB6776F00A4D0D9 /* Products */,
+				90E9A0551EB8EC900067FCA0 /* Frameworks */,
+				D5BA8F262098E03503D1F20B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,69 @@
 		904B8FBB1EB6776F00A4D0D9 /* League */ = {
 			isa = PBXGroup;
 			children = (
-				904B8FBC1EB6776F00A4D0D9 /* AppDelegate.swift */,
-				904B8FBE1EB6776F00A4D0D9 /* ViewController.swift */,
-				904B8FC01EB6776F00A4D0D9 /* Main.storyboard */,
+				90E9A0591EB8F3EF0067FCA0 /* UI */,
 				904B8FC31EB6776F00A4D0D9 /* Assets.xcassets */,
-				904B8FC51EB6776F00A4D0D9 /* LaunchScreen.storyboard */,
-				904B8FC81EB6776F00A4D0D9 /* Info.plist */,
+				90E9A05A1EB8F3FA0067FCA0 /* Model */,
+				90E9A05B1EB8F4040067FCA0 /* Controllers */,
+				90E9A0581EB8F3D90067FCA0 /* Support Files */,
 			);
 			path = League;
+			sourceTree = "<group>";
+		};
+		90E9A0551EB8EC900067FCA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A0561EB8EC910067FCA0 /* LocalAuthentication.framework */,
+				39149C4FFD622923150172F7 /* Pods_League.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90E9A0581EB8F3D90067FCA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				904B8FBC1EB6776F00A4D0D9 /* AppDelegate.swift */,
+				904B8FC81EB6776F00A4D0D9 /* Info.plist */,
+				90E9A0611EB8F6E40067FCA0 /* League-Bridging-Header.h */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		90E9A0591EB8F3EF0067FCA0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				904B8FC01EB6776F00A4D0D9 /* Main.storyboard */,
+				904B8FC51EB6776F00A4D0D9 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		90E9A05A1EB8F3FA0067FCA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A05E1EB8F5F80067FCA0 /* CustomButton.swift */,
+				90E9A0671EB903550067FCA0 /* CustomTextField.swift */,
+				90E9A0691EB905160067FCA0 /* GlobalData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90E9A05B1EB8F4040067FCA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90E9A05C1EB8F4830067FCA0 /* AuthenticationViewController.swift */,
+				90E9A0651EB8FE760067FCA0 /* LogedInVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5BA8F262098E03503D1F20B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7C200D663A1F8C094CE0617 /* Pods-League.debug.xcconfig */,
+				74E718A855043FEBDD6E46D5 /* Pods-League.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 904B8FCB1EB6776F00A4D0D9 /* Build configuration list for PBXNativeTarget "League" */;
 			buildPhases = (
+				2D6F5BB96BCDA717599CBC97 /* [CP] Check Pods Manifest.lock */,
 				904B8FB51EB6776F00A4D0D9 /* Sources */,
 				904B8FB61EB6776F00A4D0D9 /* Frameworks */,
 				904B8FB71EB6776F00A4D0D9 /* Resources */,
+				37C24C31DCB563C77E1FCEFF /* [CP] Embed Pods Frameworks */,
+				45587FE48258C5C0EDBE2256 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +174,7 @@
 					904B8FB81EB6776F00A4D0D9 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = PTRW36GG78;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +210,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D6F5BB96BCDA717599CBC97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37C24C31DCB563C77E1FCEFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League/Pods-League-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45587FE48258C5C0EDBE2256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League/Pods-League-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		904B8FB51EB6776F00A4D0D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904B8FBF1EB6776F00A4D0D9 /* ViewController.swift in Sources */,
+				90E9A06A1EB905160067FCA0 /* GlobalData.swift in Sources */,
+				90E9A05F1EB8F5F80067FCA0 /* CustomButton.swift in Sources */,
+				90E9A0661EB8FE760067FCA0 /* LogedInVC.swift in Sources */,
+				90E9A05D1EB8F4830067FCA0 /* AuthenticationViewController.swift in Sources */,
 				904B8FBD1EB6776F00A4D0D9 /* AppDelegate.swift in Sources */,
+				90E9A0681EB903550067FCA0 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +389,33 @@
 		};
 		904B8FCC1EB6776F00A4D0D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C200D663A1F8C094CE0617 /* Pods-League.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = League/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.League;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "League/League-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		904B8FCD1EB6776F00A4D0D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E718A855043FEBDD6E46D5 /* Pods-League.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = League/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.League;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "League/League-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +439,7 @@
 				904B8FCD1EB6776F00A4D0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
