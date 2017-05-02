@@ -14,6 +14,7 @@ class LogedInVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var colorView: UIView!
     @IBOutlet weak var valueLbl: UILabel!
     @IBOutlet weak var currentLeague: UILabel!
+    @IBOutlet weak var colorImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,12 @@ class LogedInVC: UIViewController, UITextFieldDelegate {
 
     @IBAction func backBtnPressed(_ sender: CustomButton) {
         dismiss(animated: true, completion: nil)
+        self.view.endEditing(true)
+    }
+    
+    
+    @IBAction func doneBtn(_ sender: CustomButton) {
+        self.view.endEditing(true)
     }
     
     @IBAction func valueSet(_ sender: Any) {
@@ -42,10 +49,14 @@ class LogedInVC: UIViewController, UITextFieldDelegate {
         if textField.text == nil || textField.text == "" {
             
             textField.text = String(0)
+            defaults.set(Int(textField.text!), forKey: "globalValue")
+            valueLbl.text = "$ \(defaults.integer(forKey: "globalValue"))"
             
         } else if Int(textField.text!)! > 999999999 {
             
             defaults.set(999999999, forKey: "globalValue")
+            print(defaults.integer(forKey: "globalValue"))
+            valueLbl.text = "$ \(defaults.integer(forKey: "globalValue"))"
             
         } else {
             
@@ -59,31 +70,31 @@ class LogedInVC: UIViewController, UITextFieldDelegate {
     
     func setViewColor() {
         if defaults.integer(forKey: "globalValue") >= 1 && defaults.integer(forKey: "globalValue") < 100 {
-            self.colorView.backgroundColor = .blue
+            self.colorImg.image = UIImage(named: "blue")
             currentLeague.text = "Blue League"
             
         } else if defaults.integer(forKey: "globalValue") >= 100 && defaults.integer(forKey: "globalValue") < 1000 {
-            self.colorView.backgroundColor = .green
+            self.colorImg.image = UIImage(named: "green")
             currentLeague.text = "Green League"
             
         } else if defaults.integer(forKey: "globalValue") >= 1000 && defaults.integer(forKey: "globalValue") < 10_000 {
-            self.colorView.backgroundColor = .yellow
+            self.colorImg.image = UIImage(named: "yellow")
             currentLeague.text = "Yellow League"
             
         } else if defaults.integer(forKey: "globalValue") >= 10_000 && defaults.integer(forKey: "globalValue") < 100_000 {
-            self.colorView.backgroundColor = .red
+            self.colorImg.image = UIImage(named: "red")
             currentLeague.text = "Red League"
             
         } else if defaults.integer(forKey: "globalValue") >= 100_000 && defaults.integer(forKey: "globalValue") < 1_000_000 {
-            self.colorView.backgroundColor = .purple
+            self.colorImg.image = UIImage(named: "purple")
             currentLeague.text = "Purple League"
             
         } else if defaults.integer(forKey: "globalValue") > 1_000_000 {
-            self.colorView.backgroundColor = .darkGray
+            self.colorImg.image = UIImage(named: "ultra")
             currentLeague.text = "Ultra League"
             
         } else {
-            self.colorView.backgroundColor = .white
+            self.colorImg.image = nil
             currentLeague.text = "Current League"
         }
     }
