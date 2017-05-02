@@ -11,6 +11,12 @@ import LocalAuthentication
 
 class AuthenticationViewController: UIViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        print(defaults.integer(forKey: "globalValue"))
+    }
+    
     /**
         This method gets called when the users clicks on the
         login button in the user interface.

@@ -9,4 +9,6 @@
 import Foundation
 import UIKit
 
-var globalValue = 0.0
+var globalValue = 0
+
+let defaults = UserDefaults.standard
