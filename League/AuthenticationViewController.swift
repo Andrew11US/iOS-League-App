@@ -15,6 +15,7 @@ class AuthenticationViewController: UIViewController {
         super.viewDidLoad()
         
         print(defaults.integer(forKey: "globalValue"))
+        loginButtonClicked((Any).self)
     }
     
     /**
@@ -23,7 +24,7 @@ class AuthenticationViewController: UIViewController {
     
         - parameter sender: a reference to the button that has been touched
     */
-    @IBAction func loginButtonClicked(_ sender: UIButton) {
+    @IBAction func loginButtonClicked(_ sender: Any) {
         
         // 1. Create a authentication context
         let authenticationContext = LAContext()
