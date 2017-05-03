@@ -69,7 +69,7 @@ class AuthenticationViewController: UIViewController {
     */
     func showAlertViewIfNoBiometricSensorHasBeenDetected(){
         
-        showAlertWithTitle("Error", message: "This device does not have a TouchID sensor.")
+        showAlertWithTitle("Error", message: "TouchID is not available")
         
     }
     

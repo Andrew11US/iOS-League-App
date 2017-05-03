@@ -71,7 +71,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="KhU-rD-PW4" kind="showDetail" identifier="LoggedInViewController" action="showViewController:sender:" id="94t-lw-KDO"/>
+                        <segue destination="KhU-rD-PW4" kind="show" identifier="LoggedInViewController" id="94t-lw-KDO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -202,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94i-v2-F87" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="135"/>
+            <point key="canvasLocation" x="1037" y="63"/>
         </scene>
     </scenes>
     <resources>
