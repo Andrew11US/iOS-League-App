@@ -76,7 +76,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="KhU-rD-PW4" kind="presentation" identifier="LoggedInViewController" modalTransitionStyle="flipHorizontal" id="94t-lw-KDO"/>
+                        <segue destination="KhU-rD-PW4" kind="showDetail" identifier="LoggedInViewController" id="94t-lw-KDO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
