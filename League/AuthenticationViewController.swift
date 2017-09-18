@@ -51,7 +51,7 @@ class AuthenticationViewController: UIViewController {
                 // Go to view controller
                 self.navigateToAuthenticatedViewController()
                 
-            }else {
+            } else {
                 
                 // Check if there is an error
                 if let error = error {
@@ -166,7 +166,6 @@ func errorMessageForLAErrorCode( _ errorCode:Int ) -> String {
             
             self.performSegue(withIdentifier: "LoggedInViewController", sender: nil)
         }
-//        self.performSegue(withIdentifier: "LoggedInViewController", sender: nil)
         
 //        if let loggedInVC = storyboard?.instantiateViewController(withIdentifier: "LoggedInViewController") {
 //            

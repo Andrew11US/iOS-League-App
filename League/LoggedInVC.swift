@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LogedInVC: UIViewController, UITextFieldDelegate {
+class LoggedInVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var textField: CustomTextField!
     @IBOutlet weak var colorView: UIView!
